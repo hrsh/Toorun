@@ -8,6 +8,6 @@ namespace Toorun.Models.JointShearModels
 {
     public class JointShearOutputModel
     {
-        
+        public string P { get; set; }
     }
 }

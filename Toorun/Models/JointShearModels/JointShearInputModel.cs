@@ -11,6 +11,8 @@ namespace Toorun.Models.JointShearModels
         public Specs Specs { get; set; }
 
         public Builds Builds { get; set; }
+
+        public string[] Joints { get; set; }
     }
 
     public class Facts
@@ -97,5 +99,10 @@ namespace Toorun.Models.JointShearModels
         public int Step { get; set; }
 
         public double Laps { get; set; }
+    }
+
+    public class Joints
+    {
+        //public string Tag { get; set; }
     }
 }

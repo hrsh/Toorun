@@ -12,6 +12,7 @@ namespace Toorun.Helps
             if (!string.IsNullOrEmpty(additionalHelpText))
                 app.ExtendedHelpText = "\n" + additionalHelpText;
             //app.ShowHelp();
+            app.UsePagerForHelpText = true;
         }
     }
 }
