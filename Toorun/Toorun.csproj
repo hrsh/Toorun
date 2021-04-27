@@ -7,14 +7,11 @@
 	<ItemGroup>
 		<PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.0.0-beta.74" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-		<PackageReference Include="YamlDotNet.NetCore" Version="1.0.0" />
+		<PackageReference Include="YamlDotNet" Version="11.1.1" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Arguments\" />
-	  <Folder Include="Commands\" />
-	  <Folder Include="Funcs\" />
-	  <Folder Include="Helps\" />
-	  <Folder Include="Models\" />
+	  <Folder Include="Exceptions\" />
 	  <Folder Include="Options\" />
 	  <Folder Include="Validations\" />
 	</ItemGroup>
